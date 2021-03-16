@@ -12,4 +12,14 @@
         <servlet-name>你好</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Http</servlet-name>
+        <servlet-class>com.XiongHoubing.week2pritice.HttpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Http</servlet-name>
+        <url-pattern>/name</url-pattern>
+    </servlet-mapping>
 </web-app>
+

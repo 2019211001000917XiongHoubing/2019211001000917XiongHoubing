@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="2019211001000917XiongHoubing:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a17ed13a-93b5-4c18-a760-6b9762ec9b29" name="Default Changelist" comment="HW-week3 Commit">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" afterDir="false" />
+    </list>
+    <list id="fa8d13e5-c81f-4bcd-8c48-3e6b01b769f9" name="Revert &quot;HW-week3 Commit&quot;" comment="Revert &quot;HW-week3 Commit&quot;&#10;&#10;This reverts commit ba0d5dc0" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1pppMemEuJqvh6AHi5qckC7DI3j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.64">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="所有在2019211001000917XiongHoubing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2019211001000917XiongHoubing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.64" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="2019211001000917XiongHoubing:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/2019211001000917XiongHoubing_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="26d49fc5-cad7-4a89-acdf-13ab95450d03" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="2019211001000917XiongHoubing:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.所有在2019211001000917XiongHoubing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a17ed13a-93b5-4c18-a760-6b9762ec9b29" name="Default Changelist" comment="" />
+      <created>1615889844772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615889844772</updated>
+      <workItem from="1615889846578" duration="122000" />
+      <workItem from="1615900982233" duration="3844000" />
+      <workItem from="1615904877924" duration="1056000" />
+      <workItem from="1615906320228" duration="27000" />
+      <workItem from="1615906680253" duration="4147000" />
+      <workItem from="1615911453132" duration="1114000" />
+      <workItem from="1615942928265" duration="1857000" />
+      <workItem from="1615946138289" duration="269000" />
+      <workItem from="1615946582658" duration="579000" />
+      <workItem from="1615947193705" duration="176000" />
+      <workItem from="1615947437059" duration="746000" />
+      <workItem from="1615949267512" duration="1728000" />
+      <workItem from="1616140426086" duration="1144000" />
+      <workItem from="1616143421922" duration="2252000" />
+      <workItem from="1616152895814" duration="2111000" />
+      <workItem from="1616155059887" duration="2803000" />
+      <workItem from="1616158107147" duration="182000" />
+      <workItem from="1616377271676" duration="9907000" />
+      <workItem from="1616407817330" duration="374000" />
+      <workItem from="1616408206793" duration="3783000" />
+      <workItem from="1616416245293" duration="1162000" />
+      <workItem from="1616456432543" duration="1310000" />
+      <workItem from="1616486633463" duration="3895000" />
+    </task>
+    <task id="LOCAL-00001" summary="week2">
+      <created>1615946704990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615946704990</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Default Changelist">
+      <created>1616155881534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616155881534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="week1 and week2">
+      <created>1616156907497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616156907497</updated>
+    </task>
+    <task id="LOCAL-00004" summary="HW-week3 Commit">
+      <created>1616415466047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616415466048</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HW-week3 Commit">
+      <created>1616415685394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616415685394</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HW-week3 Commit">
+      <created>1616456632097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616456632097</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HW-week3 Commit">
+      <created>1616474670076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616474670076</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HW-week3 Commit">
+      <created>1616475254530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616475254530</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HW-week3 Commit">
+      <created>1616486886521</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616486886521</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="week2" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="Default Changelist" />
+    <MESSAGE value="week1 and week2" />
+    <MESSAGE value="HW-week3 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-week3 Commit" />
+  </component>
+</project>

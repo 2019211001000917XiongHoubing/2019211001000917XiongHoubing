@@ -11,8 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<form>
-
+<form method="post" action="/register">
     Username:<input type="text" value="Username"><br>
     Password:<input type="password" minlength="8" value="password" id="000"><br>
     <input type="email" value="Email" id="001"><br>

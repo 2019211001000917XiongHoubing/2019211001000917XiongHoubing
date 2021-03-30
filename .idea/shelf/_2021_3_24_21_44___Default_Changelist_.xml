@@ -1,0 +1,24 @@
+<changelist name="在进行更新之前于_2021_3_24_21_44_取消提交了变更_[Default_Changelist]" date="1616593463864" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_3_24_21_44_取消提交了变更_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行更新之前于 2021/3/24 21:44 取消提交了变更 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" />
+    <option name="AFTER_PATH" value="target/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_3_24_21_44_取消提交了变更_[Default_Changelist]/RegisterServlet.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" />
+    <option name="AFTER_PATH" value="target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_3_24_21_44_取消提交了变更_[Default_Changelist]/LifeCycleServlet.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" />
+    <option name="AFTER_PATH" value="target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_3_24_21_44_取消提交了变更_[Default_Changelist]/RegisterServlet1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" />
+    <option name="AFTER_PATH" value="target/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_3_24_21_44_取消提交了变更_[Default_Changelist]/LifeCycleServlet1.class" />
+  </binary>
+</changelist>

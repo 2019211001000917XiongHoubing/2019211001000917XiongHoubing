@@ -10,12 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a17ed13a-93b5-4c18-a760-6b9762ec9b29" name="Default Changelist" comment="HW-week3 Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_8_2_1_jre8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/2019211001000917XiongHoubing_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/2019211001000917XiongHoubing_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019211001000917XiongHoubing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211001000917XiongHoubing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XiongHoubing/week3/demo/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XiongHoubing/week3/demo/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/XiongHoubing2019211001000917XiongHoubing/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/XiongHoubing2019211001000917XiongHoubing/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/example/XiongHoubing2019211001000917XiongHoubing/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/classes/com/example/XiongHoubing2019211001000917XiongHoubing/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/XiongHoubing2019211001000917XiongHoubing-1.0-SNAPSHOT/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/XiongHoubing/week3/demo/LifeCycleServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/XiongHoubing/week3/demo/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/XiongHoubing2019211001000917/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/XiongHoubing2019211001000917XiongHoubing/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/XiongHoubing2019211001000917XiongHoubing/HelloServlet.class" afterDir="false" />
     </list>
     <list id="fa8d13e5-c81f-4bcd-8c48-3e6b01b769f9" name="Revert &quot;HW-week3 Commit&quot;" comment="Revert &quot;HW-week3 Commit&quot;&#10;&#10;This reverts commit ba0d5dc0" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +52,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -58,6 +69,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -70,7 +82,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Network" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.64">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -108,6 +120,54 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60377" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -137,6 +197,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\顺其自然\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a17ed13a-93b5-4c18-a760-6b9762ec9b29" name="Default Changelist" comment="" />
@@ -166,7 +229,11 @@
       <workItem from="1616408206793" duration="3783000" />
       <workItem from="1616416245293" duration="1162000" />
       <workItem from="1616456432543" duration="1310000" />
-      <workItem from="1616486633463" duration="3895000" />
+      <workItem from="1616486633463" duration="4121000" />
+      <workItem from="1616593164195" duration="392000" />
+      <workItem from="1616650985658" duration="10079000" />
+      <workItem from="1617098820169" duration="3637000" />
+      <workItem from="1617104592216" duration="3971000" />
     </task>
     <task id="LOCAL-00001" summary="week2">
       <created>1615946704990</created>

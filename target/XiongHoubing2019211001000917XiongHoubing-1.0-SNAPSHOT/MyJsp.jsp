@@ -6,11 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+
+
+<%@include file="header.jsp"%>
+    This is my JSP page.<br>
+    <a href="index.jsp">Back to index</a>
+
 <a href="http://www.ecjtu.jx.cn/">go to ecjtu</a><br/>
 <form method="post">
     Name :<input type="text" name="Name"><br/>
@@ -18,5 +19,4 @@
     <input type="submit" value="send date to server"/>
 </form>
 
-</body>
-</html>
+<%@include file="footer.jsp"%>

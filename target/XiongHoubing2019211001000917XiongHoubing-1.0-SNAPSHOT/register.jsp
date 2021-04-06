@@ -5,21 +5,17 @@
   Time: 0:02
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-<form method="post" action="/register">
-    Username:<input type="text" value="Username"><br>
-    Password:<input type="password" minlength="8" value="password" id="000"><br>
-    <input type="email" value="Email" id="001"><br>
-    <input type="radio" name="Gender">Male<br>
-    <input type="radio" name="Gender">Female<br>
-    <input type="datetime-local" value="Date of Birth(yyyy-mm-dd)"><br>
-    <input type="submit" value="Submit"><br>
+
+<%@include file="header.jsp"%>
+
+<form method="post" action="register">
+    Username:<input type="text" name="Username"><br/>
+    Password:<input type="password" minlength="8" name="password"><br/>
+    Email:<input type="email" name="Email"><br/>
+   Gender: <input type="radio" name="Gender" value="Male">Male &nbsp;
+    <input type="radio" name="Gender" value="Female">Female<br/>
+    Date of Birth:<input type="datetime-local" name="birthdate"><br/>
+    <input type="submit" value="Register"><br/>
 </form>
 
-</body>
-</html>
+<%@include file="footer.jsp"%>

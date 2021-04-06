@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    
+
     <servlet>
         <servlet-name>你好</servlet-name>
         <servlet-class>com.XiongHoubing.week2.demo.HelloWorldServlet</servlet-class>
@@ -43,7 +43,22 @@
     <servlet>
         <servlet-name>JDBDDemoServlet</servlet-name>
         <servlet-class>com.XiongHoubing.wee4.demo.JDBDDemoServlet</servlet-class>
-
+        <init-param>
+            <param-name>driver</param-name>
+            <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:sqlserver://localhost;databaseName=jsp</param-value>
+        </init-param>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>sa</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>200113</param-value>
+        </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
@@ -68,6 +83,16 @@
         <url-pattern>/config</url-pattern>
     </servlet-mapping>
 
+     <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.XiongHoubing.week5.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+
     <context-param>
         <param-name>driver</param-name>
         <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
@@ -80,12 +105,13 @@
 
     <context-param>
         <param-name>username</param-name>
-        <param-value>XiongHoubing</param-value>
+        <param-value>sa</param-value>
     </context-param>
 
     <context-param>
         <param-name>password</param-name>
-        <param-value>123456</param-value>
+        <param-value>200113</param-value>
     </context-param>
+
 
 </web-app>

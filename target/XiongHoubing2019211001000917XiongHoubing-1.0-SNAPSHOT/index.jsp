@@ -3,9 +3,9 @@
 <html>
 <body>
 <%@include file="header.jsp"%>
-<h2>Welcome to My Online Shop Home Page.</h2> <br>
-<form action="search" method="post" target="_blank">
-    <input type="text" name="txt" size=30/>
+<h2>Welcome to My Home Page.</h2> <br>
+<form action="search" method="post" >
+    <input type="text" name="txt"/>
     <select name="search">
         <option value="baidu">Baidu</option>
         <option value="bing">Bing</option>

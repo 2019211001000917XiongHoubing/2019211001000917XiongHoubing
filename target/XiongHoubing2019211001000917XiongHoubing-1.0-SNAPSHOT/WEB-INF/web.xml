@@ -95,6 +95,11 @@
         <url-pattern>/jdbc</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <servlet-class>com.XiongHoubing.week6.RedirectServlet</servlet-class>
+    </servlet>
+
     -->
 
     <context-param>
@@ -113,6 +118,5 @@
         <param-name>password</param-name>
         <param-value>200113</param-value>
     </context-param>
-
 
 </web-app>

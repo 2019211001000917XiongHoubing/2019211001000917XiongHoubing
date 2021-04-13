@@ -4,33 +4,24 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+    <!--
     <servlet>
-        <servlet-name>你好</servlet-name>
-        <servlet-class>com.XiongHoubing.week2.demo.HelloWorldServlet</servlet-class>
+        <servlet-name>ConfigDemoServlet</servlet-name>
+        <servlet-class>com.XiongHoubing.wee4.demo.ConfigDemoServlet</servlet-class>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>XiongHoubing</param-value>
+        </init-param>
+        <init-param>
+            <param-name>studentID</param-name>
+            <param-value>2019211001000917</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
-        <servlet-name>你好</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <servlet-name>ConfigDemoServlet</servlet-name>
+        <url-pattern>/config</url-pattern>
     </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>来啦</servlet-name>
-        <servlet-class>com.XiongHoubing.week2pritice.HttpServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>来啦</servlet-name>
-        <url-pattern>/name</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>LifeCycleServlet</servlet-name>
-        <servlet-class>com.XiongHoubing.week3.demo.LifeCycleServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>LifeCycleServlet</servlet-name>
-        <url-pattern>/life</url-pattern>
-    </servlet-mapping>
-    
+
     <servlet>
         <servlet-name>RegisterServlet</servlet-name>
         <servlet-class>com.XiongHoubing.week3.demo.RegisterServlet</servlet-class>
@@ -39,7 +30,45 @@
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
-    
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.XiongHoubing.week5.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>你好</servlet-name>
+        <servlet-class>com.XiongHoubing.week2.demo.HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>你好</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>来啦</servlet-name>
+        <servlet-class>com.XiongHoubing.week2pritice.HttpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>来啦</servlet-name>
+        <url-pattern>/name</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <servlet-class>com.XiongHoubing.week3.demo.LifeCycleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <url-pattern>/life</url-pattern>
+    </servlet-mapping>
+
+
+
     <servlet>
         <servlet-name>JDBDDemoServlet</servlet-name>
         <servlet-class>com.XiongHoubing.wee4.demo.JDBDDemoServlet</servlet-class>
@@ -66,48 +95,20 @@
         <url-pattern>/jdbc</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>ConfigDemoServlet</servlet-name>
-        <servlet-class>com.XiongHoubing.wee4.demo.ConfigDemoServlet</servlet-class>
-        <init-param>
-            <param-name>name</param-name>
-            <param-value>XiongHoubing</param-value>
-        </init-param>
-        <init-param>
-            <param-name>studentID</param-name>
-            <param-value>2019211001000917</param-value>
-        </init-param>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ConfigDemoServlet</servlet-name>
-        <url-pattern>/config</url-pattern>
-    </servlet-mapping>
-
-     <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.XiongHoubing.week5.LoginServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/Login</url-pattern>
-    </servlet-mapping>
-
+    -->
 
     <context-param>
         <param-name>driver</param-name>
         <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
     </context-param>
-
     <context-param>
         <param-name>url</param-name>
-        <param-value>jdbc:sqlserver://localhost;databaseName=jsp</param-value>
+        <param-value>jdbc:sqlserver://127.0.0.1:1433;DatabaseName=jsp</param-value>
     </context-param>
-
     <context-param>
         <param-name>username</param-name>
         <param-value>sa</param-value>
     </context-param>
-
     <context-param>
         <param-name>password</param-name>
         <param-value>200113</param-value>

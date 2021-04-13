@@ -14,16 +14,6 @@ public class LoginServlet extends HttpServlet {
     Connection con = null;
     @Override
     public void init() throws ServletException {
-//        String driver = getServletConfig().getServletContext().getInitParameter("driver");
-//        String url = getServletConfig().getServletContext().getInitParameter("url");
-//        String username = getServletConfig().getServletContext().getInitParameter("username");
-//        String password = getServletConfig().getServletContext().getInitParameter("password");
-//        try {
-//            Class.forName(driver);
-//            con = DriverManager.getConnection(url,username,password);
-//        } catch (Exception e) {
-//            System.out.println(e);
-//        }
         con = (Connection) getServletContext().getAttribute("con");
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -37,8 +27,6 @@ public class LoginServlet extends HttpServlet {
             pst.setString(2,password);
             ResultSet rs = pst.executeQuery();
             if (rs.next()) {
-//                pw.write("<h1>Login Success !</h1>");
-//                pw.write("<h1>Welcome,"+ username +"</h1>");
                 request.setAttribute("username", rs.getString("username"));
                 request.setAttribute("password", rs.getString("password"));
                 request.setAttribute("email", rs.getString("email"));
@@ -46,7 +34,6 @@ public class LoginServlet extends HttpServlet {
                 request.setAttribute("birthDate", rs.getString("birthDate"));
                 request.getRequestDispatcher("userinfo.jsp").forward(request,response);
             } else {
-//                pw.write("<h1>Username or Password is error!</h1>");
                 request.setAttribute("message", "username or password error!");
                 request.getRequestDispatcher("login.jsp").forward(request, response);
             }

@@ -22,11 +22,14 @@ public class SearchServlet extends HttpServlet {
         if (txt.equals("")) {
             response.sendRedirect(request.getContextPath()+"/index.jsp");
         }else {
-            if (search.equals("baidu")) {
+            if (search.equals("baidu"))
+            {
                 response.sendRedirect("https://www.baidu.com/s?wd="+txt);
-            }else if(search.equals("bing")) {
+            }else if(search.equals("bing"))
+            {
                 response.sendRedirect("https://cn.bing.com/search?q="+txt);
-            }else if(search.equals("google")) {
+            }else if(search.equals("google"))
+            {
                 response.sendRedirect("https://www.google.com/search?q="+txt);
             }
         }

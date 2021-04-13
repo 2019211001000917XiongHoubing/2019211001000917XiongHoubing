@@ -8,15 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
 <%@include file="header.jsp"%>
-    This is my JSP page.<br>
-    <a href="index.jsp">Back to index</a>
-
-<a href="http://www.ecjtu.jx.cn/">go to ecjtu</a><br/>
-<form method="post">
-    Name :<input type="text" name="Name"><br/>
-    ID :<input type="text" name="ID"><br/>
-    <input type="submit" value="send date to server"/>
-</form>
-
+this is jsp page.<br>
 <%@include file="footer.jsp"%>
+</body>
+</html>

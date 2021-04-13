@@ -1,25 +1,18 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 
+<html>
+<body>
 <%@include file="header.jsp"%>
-Welcome come to my JSP  home page.<br>
-<h1><%= "Hello World!!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet-Week1</a>
-<br/>
-<a href="hello">Student  Info Servlet-Week2</a>
-<br/>
-<a href="life">Life cycle Servlet-Week3</a>
-<br/>
-<a href="register.jsp">Register-getParameter-Week3</a>
-<br/>
-<a href="config">Config Parameter-Week4</a>
-<br/>
-<a href="register.jsp">Register JDBC -Week4</a>
-<br/>
-<a href="index.jsp">include-Week5</a>
-<br/>
-<a href="login.jsp">Login-Week5</a>
-<br/>
-
+<h2>Welcome to My Online Shop Home Page.</h2> <br>
+<form action="search" method="post" target="_blank">
+    <input type="text" name="txt" size=30/>
+    <select name="search">
+        <option value="baidu">Baidu</option>
+        <option value="bing">Bing</option>
+        <option value="google">Google</option>
+    </select>
+    <input type="submit" value="Search"/>
+</form>
 <%@include file="footer.jsp"%>
+</body>
+</html>

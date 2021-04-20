@@ -41,14 +41,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/login.jsp" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -69,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,6 +87,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\顺其自然\IdeaProjects\2019211001000917XiongHoubing\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\顺其自然\IdeaProjects\2019211001000917XiongHoubing\src\main\webapp\WEB-INF\lib" />
       <recent name="C:\Users\顺其自然\IdeaProjects\2019211001000917XiongHoubing\src\main\webapp" />
     </key>
@@ -102,15 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,7 +261,9 @@
       <workItem from="1618104439515" duration="20434000" />
       <workItem from="1618136240507" duration="154000" />
       <workItem from="1618300397105" duration="4578000" />
-      <workItem from="1618316906579" duration="1139000" />
+      <workItem from="1618316906579" duration="1512000" />
+      <workItem from="1618453020066" duration="898000" />
+      <workItem from="1618894707116" duration="2422000" />
     </task>
     <task id="LOCAL-00001" summary="week2">
       <created>1615946704990</created>

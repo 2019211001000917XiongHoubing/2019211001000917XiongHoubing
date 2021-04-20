@@ -95,6 +95,11 @@
         <url-pattern>/jdbc</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <servlet-class>com.XiongHoubing.week6.RedirectServlet</servlet-class>
+    </servlet>
+
     -->
 
     <context-param>
@@ -103,7 +108,7 @@
     </context-param>
     <context-param>
         <param-name>url</param-name>
-        <param-value>jdbc:sqlserver://127.0.0.1:1433;DatabaseName=jsp</param-value>
+        <param-value>jdbc:sqlserver://localhost;databaseName=jsp</param-value>
     </context-param>
     <context-param>
         <param-name>username</param-name>
@@ -113,4 +118,9 @@
         <param-name>password</param-name>
         <param-value>200113</param-value>
     </context-param>
+
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+
 </web-app>

@@ -14,21 +14,24 @@ public class RegisterServlet extends HttpServlet {
     Connection con = null;
     @Override
     public void init() throws ServletException {
-        String driver = getServletConfig().getServletContext().getInitParameter("driver");
-        String url = getServletConfig().getServletContext().getInitParameter("url");
-        String username = getServletConfig().getServletContext().getInitParameter("username");
-        String password = getServletConfig().getServletContext().getInitParameter("password");
-
-        try {
-            Class.forName(driver);
-            con = DriverManager.getConnection(url,username,password);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+//        String driver = getServletConfig().getServletContext().getInitParameter("driver");
+//        String url = getServletConfig().getServletContext().getInitParameter("url");
+//        String username = getServletConfig().getServletContext().getInitParameter("username");
+//        String password = getServletConfig().getServletContext().getInitParameter("password");
+////        System.out.println(driver);
+////        System.out.println(url);
+////        System.out.println(username);
+//        try {
+//            Class.forName(driver);
+//            con = DriverManager.getConnection(url,username,password);
+//        } catch (Exception e) {
+//            System.out.println(e);
+//        }
+        con = (Connection) getServletContext().getAttribute("con");
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+//        System.out.println("jnj");
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         String email = request.getParameter("email");
@@ -48,7 +51,7 @@ public class RegisterServlet extends HttpServlet {
             throwables.printStackTrace();
         }
 
-        String sql2 = "select * from user";
+        String sql2 = "select * from user ";
         String user,pwd,em,sex,date;
         try {
             Statement statement = con.createStatement();
@@ -63,6 +66,7 @@ public class RegisterServlet extends HttpServlet {
             pw.write("<td>birthDate</td>");
             pw.write("</tr>");
             while (resultSet.next()) {
+                // 获得id值
                 user = resultSet.getString("username");
                 pwd = resultSet.getString("password");
                 em = resultSet.getString("email");
@@ -77,12 +81,18 @@ public class RegisterServlet extends HttpServlet {
                 pw.write("</tr>");
             }
             pw.write("</table>");
+            // 关闭数据库连接对象
             con.close();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
         PrintWriter writer = response.getWriter();
-
+//        writer.println("<br>username :" + username);
+//        writer.println("<br>password :" + password);
+//        writer.println("<br>email :" + email);
+//        writer.println("<br>gender :" + gender);
+//        writer.println("<br>birthDate :" + birthDate);
+//        writer.close();
         response.sendRedirect("login.jsp");
     }
 

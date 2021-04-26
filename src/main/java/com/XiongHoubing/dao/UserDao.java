@@ -6,20 +6,22 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
 public class UserDao implements IUserDao{
 
+    private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
     @Override
     public boolean saveUser(Connection con, User user) throws SQLException {
-        String sql = "insert into user (username,password,email,gender,birthdate) values(?,?,?,?,?)";
+        String sql = "insert into user(username,password,email,gender,birthdate) values(?,?,?,?,?)";
         PreparedStatement ps = con.prepareStatement(sql);
         ps.setString(1,user.getUsername());
         ps.setString(2,user.getPassword());
         ps.setString(3,user.getEmail());
         ps.setString(4,user.getGender());
-        ps.setDate(5, (java.sql.Date) user.getBirthdate());
+        ps.setString(5,simpleDateFormat.format(user.getBirthdate()));
         ps.executeUpdate();
         return false;
     }
@@ -41,10 +43,9 @@ public class UserDao implements IUserDao{
         ps.setString(2,user.getPassword());
         ps.setString(3,user.getEmail());
         ps.setString(4,user.getGender());
-        ps.setDate(5, (java.sql.Date) user.getBirthdate());
+        ps.setString(5,simpleDateFormat.format(user.getBirthdate()));
         ps.setInt(6,user.getId());
-        ps.executeUpdate();
-        return 0;
+        return ps.executeUpdate();
     }
 
     @Override

@@ -12,13 +12,17 @@
 </head>
 <body>
 <%@include file="header.jsp"%>
+<%
+    User USER = (User) session.getAttribute("user");
+%>
 <table border="1">
-    <tr><td>Username:</td><td><%=request.getAttribute("username")%></td></tr>
-    <tr><td>Password:</td><td><%=request.getAttribute("password")%></td></tr>
-    <tr><td>Email:</td><td><%=request.getAttribute("email")%></td></tr>
-    <tr><td>Gender:</td><td><%=request.getAttribute("gender")%></td></tr>
-    <tr><td>Birthdate:</td><td><%=request.getAttribute("birthdate")%></td></tr>
+    <tr><td>Username:</td><td><%=USER.getUsername()%></td></tr>
+    <tr><td>Password:</td><td><%=USER.getPassword()%></td></tr>
+    <tr><td>Email:</td><td><%=USER.getEmail()%></td></tr>
+    <tr><td>Gender:</td><td><%=USER.getGender()%></td></tr>
+    <tr><td>Birthdate:</td><td><%=USER.getBirthdate()%></td></tr>
 </table>
+<a href="updateUser">Update</a>
 <%@include file="footer.jsp"%>
 </body>
 </html>

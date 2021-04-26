@@ -17,10 +17,28 @@
         out.print("<h3 style='color: red'>"+ request.getAttribute("message") +"</h3>");
     }
 %>
+<%
+    Cookie[] allCookies = request.getCookies();
+    String username = "", password="", rememberMeVal = "";
+    if(allCookies != null) {
+        for(Cookie c:allCookies) {
+            if(c.getName().equals("cUsername")) {
+                username = c.getValue();
+            }
+            if(c.getName().equals("cPassword")) {
+                password = c.getValue();
+            }
+            if(c.getName().equals("cRememberMeVal")) {
+                rememberMeVal = c.getValue();
+            }
+        }
+    }
+%>
 <form action="login" method="post">
     <h1>Login</h1>
-    username: <input type="text" name="username">
-    password: <input type="password" name="password">
+    username: <input type="text" name="username" value="<%=username%>"> <br/>
+    password: <input type="password" name="password" value="<%=password%>"> <br/>
+    <input type="checkbox" name="rememberMe" value="1" <%= rememberMeVal.equals("1") ? "checked" : ""%>>Remember Me<br/>
     <input type="submit" value="login">
 </form>
 <%@include file="footer.jsp"%>

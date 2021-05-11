@@ -35,8 +35,8 @@ public class RegisterServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         String email = request.getParameter("email");
-        String gender = request.getParameter("sex");
-        String birthDate = request.getParameter("birthDate");
+        String gender = request.getParameter("gender");
+        String birthDate = request.getParameter("birthdate");
 
         String sql = "insert into user values (?,?,?,?,?)";
         try {
@@ -51,41 +51,41 @@ public class RegisterServlet extends HttpServlet {
             throwables.printStackTrace();
         }
 
-        String sql2 = "select * from user ";
-        String user,pwd,em,sex,date;
-        try {
-            Statement statement = con.createStatement();
-            ResultSet resultSet = statement.executeQuery(sql2);
-            PrintWriter pw = response.getWriter();
-            pw.write("<table border="+1+">");
-            pw.write("<tr>");
-            pw.write("<td>username</td>");
-            pw.write("<td>password</td>");
-            pw.write("<td>email</td>");
-            pw.write("<td>gender</td>");
-            pw.write("<td>birthDate</td>");
-            pw.write("</tr>");
-            while (resultSet.next()) {
-                // 获得id值
-                user = resultSet.getString("username");
-                pwd = resultSet.getString("password");
-                em = resultSet.getString("email");
-                sex = resultSet.getString("gender");
-                date = resultSet.getString("birthDate");
-                pw.write("<tr>");
-                pw.write("<td>"+user+"</td>");
-                pw.write("<td>"+pwd+"</td>");
-                pw.write("<td>"+em+"</td>");
-                pw.write("<td>"+sex+"</td>");
-                pw.write("<td>"+date+"</td>");
-                pw.write("</tr>");
-            }
-            pw.write("</table>");
-            // 关闭数据库连接对象
-            con.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
+//        String sql2 = "select * from usertable";
+//        String user,pwd,em,sex,date;
+//        try {
+//            Statement statement = con.createStatement();
+//            ResultSet resultSet = statement.executeQuery(sql2);
+//            PrintWriter pw = response.getWriter();
+//            pw.write("<table border="+1+">");
+//            pw.write("<tr>");
+//            pw.write("<td>username</td>");
+//            pw.write("<td>password</td>");
+//            pw.write("<td>email</td>");
+//            pw.write("<td>gender</td>");
+//            pw.write("<td>birthDate</td>");
+//            pw.write("</tr>");
+//            while (resultSet.next()) {
+//                // 获得id值
+//                user = resultSet.getString("username");
+//                pwd = resultSet.getString("password");
+//                em = resultSet.getString("email");
+//                sex = resultSet.getString("gender");
+//                date = resultSet.getString("birthDate");
+//                pw.write("<tr>");
+//                pw.write("<td>"+user+"</td>");
+//                pw.write("<td>"+pwd+"</td>");
+//                pw.write("<td>"+em+"</td>");
+//                pw.write("<td>"+sex+"</td>");
+//                pw.write("<td>"+date+"</td>");
+//                pw.write("</tr>");
+//            }
+//            pw.write("</table>");
+        // 关闭数据库连接对象
+
+//        } catch (SQLException throwables) {
+//            throwables.printStackTrace();
+//        }
         PrintWriter writer = response.getWriter();
 //        writer.println("<br>username :" + username);
 //        writer.println("<br>password :" + password);
@@ -93,10 +93,10 @@ public class RegisterServlet extends HttpServlet {
 //        writer.println("<br>gender :" + gender);
 //        writer.println("<br>birthDate :" + birthDate);
 //        writer.close();
-        response.sendRedirect("login.jsp");
+        request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        request.getRequestDispatcher("WEB-INF/views/register.jsp").forward(request,response);
     }
 }

@@ -46,6 +46,7 @@ public class UpdateUserServlet extends HttpServlet {
         Connection con = (Connection) getServletContext().getAttribute("con");
         try {
             int index = userDao.updateUser(con, user);
+            request.getSession().setAttribute("user",userDao.findById(con,id));
             if(index!=0) {
                 request.getRequestDispatcher("WEB-INF/views/userinfo.jsp").forward(request,response);
             }

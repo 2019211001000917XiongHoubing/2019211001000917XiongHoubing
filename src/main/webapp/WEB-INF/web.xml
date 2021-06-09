@@ -108,7 +108,7 @@
     </context-param>
     <context-param>
         <param-name>url</param-name>
-        <param-value>jdbc:sqlserver://localhost;databaseName=jsp</param-value>
+        <param-value>jdbc:sqlserver://localhost;databaseName=userdb</param-value>
     </context-param>
     <context-param>
         <param-name>username</param-name>
@@ -118,6 +118,16 @@
         <param-name>password</param-name>
         <param-value>200113</param-value>
     </context-param>
+
+    <filter>
+        <filter-name>XiongHoubingFilter</filter-name>
+        <filter-class>com.lab2.XiongHoubingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>XiongHoubingFilter</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
+    </filter-mapping>
+
 
     <welcome-file-list>
         <welcome-file>home</welcome-file>
